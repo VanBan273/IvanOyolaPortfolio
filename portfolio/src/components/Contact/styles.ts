@@ -13,6 +13,7 @@ export const Container = styled.section`
     p{
       color: var(--orange);
       font-weight: 500;
+      font-size: 2.5rem;
     }
   }
 

@@ -19,7 +19,7 @@ export const Container = styled.section`
     align-items: center;
 
     img{
-      width: 3.4rem;
+      width: 9rem;
     }
   }
 
@@ -27,15 +27,17 @@ export const Container = styled.section`
     display: inline-block;
     margin-bottom: 2rem;
     border-bottom: 0.2rem solid var(--blue);
+    font-size:5rem;
   }
 
   h3{
     margin-top: 2rem;
     color: orange;
+    font-size:5rem;
   }
 
   p{
-    font-size: 1.8rem;
+    font-size: 2.5rem;
     letter-spacing: 0.1rem;
     font-weight: 500;
   }

@@ -1,5 +1,4 @@
 import { Container } from "./styles";
-
 import profileImage from "../../assets/profile-image.jpg"
 import cssIcon from "../../assets/css-icon.svg";
 import htmlIcon from "../../assets/html-icon.svg";
@@ -31,7 +30,7 @@ export function About(){
         </ScrollAnimation>
 
         <ScrollAnimation animateIn="fadeInLeft" delay={0.7 * 1000}>
-          <h3>Aqui estão as minhas principais habilidades:</h3>
+          <h3>My skills:</h3>
         </ScrollAnimation>
         <div className="hard-skills">
 

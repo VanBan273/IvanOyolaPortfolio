@@ -13,17 +13,19 @@ export const Container = styled.section`
       font-size: 1.8rem;
     }
     h1{
-      font-size: 7rem;
+      font-size: 10rem;
     }
 
     h3{
       color:var(--orange);
-      margin: 1rem 0;
+      margin: 3rem 0;
+      font-size: 4rem;
     }
 
     
     p.small-resume {
       margin-bottom: 5rem;
+      font-size: 4rem;
     }
   }
 

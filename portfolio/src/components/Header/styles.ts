@@ -43,6 +43,7 @@ export const Container = styled.header`
   .menu-container{
     cursor: pointer;
     padding: 0.6rem 0;
+    
   }
 
   .menu{
@@ -169,14 +170,15 @@ export const Container = styled.header`
       top: 0;
       left: 0;
       transition: opacity 0.25s;
-      background-color: var(--orange);
+      background-color: #585858;
+      
 
       a.button{
-        background-color: var(--blue);
+        background-color: var(--orange);
       }
 
       &.active{
-        opacity: 1;
+        opacity: 99%;
         visibility: visible;
       }
     }

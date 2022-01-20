@@ -49,7 +49,7 @@ export function Form() {
 
   return (
     <Container>
-      <h2>Write your message</h2>
+      <h2>Send me a message</h2>
       <form onSubmit={handleSubmit}>
         <input
           placeholder="Email"
@@ -64,7 +64,7 @@ export function Form() {
         <ValidationError prefix="Email" field="email" errors={state.errors} />
         <textarea
           required
-          placeholder="Write..."
+          placeholder="Write your message..."
           id="message"
           name="message"
           onChange={(e) => {
