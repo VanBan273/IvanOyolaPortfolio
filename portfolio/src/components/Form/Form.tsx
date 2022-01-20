@@ -22,7 +22,7 @@ export function Form() {
 
   useEffect(() => {
     if (state.succeeded) {
-      toast.success('Email sent successfully!', {
+      toast.success('Email enviado com sucesso!', {
         position: toast.POSITION.BOTTOM_LEFT,
         pauseOnFocusLoss: false,
         closeOnClick: true,
@@ -34,13 +34,13 @@ export function Form() {
   if (state.succeeded) {
     return (
       <ContainerSucces>
-        <h3>Thank you for contacting!</h3>
+        <h3>Obrigado por entrar em contato!</h3>
         <button
           onClick={() => {
             window.scrollTo({ top: 0, behavior: 'smooth' })
           }}
         >
-          🚀 Back to the top 🚀
+          Voltar ao topo
         </button>
         <ToastContainer />
       </ContainerSucces>
@@ -49,7 +49,7 @@ export function Form() {
 
   return (
     <Container>
-      <h2>Send me a message</h2>
+      <h2>Entre em contato a partir do formulário abaixo</h2>
       <form onSubmit={handleSubmit}>
         <input
           placeholder="Email"
@@ -64,7 +64,7 @@ export function Form() {
         <ValidationError prefix="Email" field="email" errors={state.errors} />
         <textarea
           required
-          placeholder="Write your message..."
+          placeholder="Deixe sua mensagem"
           id="message"
           name="message"
           onChange={(e) => {
@@ -77,7 +77,7 @@ export function Form() {
           errors={state.errors}
         />
         <ReCAPTCHA
-          sitekey="6LfZriceAAAAAFX9dZmGOPw5itVzhsmYHFfP9Q8v"
+          sitekey="6LcAu-IdAAAAAJOTI5E_eRltZNQCvukIl2-f1glQ"
           onChange={(e) => {
             setIsHuman(true)
           }}
@@ -86,7 +86,7 @@ export function Form() {
           type="submit"
           disabled={state.submitting || !validEmail || !message || !isHuman}
         >
-          Send
+          Enviar
         </button>
       </form>
       <ToastContainer />
