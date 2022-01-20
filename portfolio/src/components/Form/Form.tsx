@@ -79,6 +79,7 @@ export function Form() {
         
         <button
           type="submit"
+          disabled={state.submitting || !validEmail || !message}
           
         >
           Send
