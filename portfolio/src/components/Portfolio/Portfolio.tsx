@@ -194,7 +194,7 @@ export function Portfolio(){
           </div>
           </header>
           <div className="body">
-            <h3>Portfolio V.1</h3>
+            <h3>Tamagochi</h3>
             <p>Tipico tamagochi con el que puedes jugar y alimentarlo y si no lo atiendes, tras cierto tiempo, muere.
             </p>
           </div>
